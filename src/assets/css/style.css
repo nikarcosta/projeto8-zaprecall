@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #FB6B6B;
+    font-family: 'Recursive', sans-serif;
+}
+
+
+.boas-vindas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img{
+    height: 161px;
+    width: 136px;
+    left: -1202px;
+    top: -2935px;
+    border-radius: 0px;
+    margin-top: 140px;
+    margin-bottom: 30px;
+
+}
+
+.nome-app span{
+    font-family: Righteous;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: -0.012em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.iniciar-app{
+    margin-top: 20px;
+    width: 246px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.iniciar-app span {
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #D70900;
+}
+
+.iniciar-app:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #FB6B6B;
+    width: 100%;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.cabecario span{
+    font-family: Righteous;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: -0.012em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.cabecario img{
+    height: 60px;
+    width: 52px;
+}
+
+
+main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-perguntas {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.titulo {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 5px 0px #00000026;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    word-break: break-all;
+}
+
+.titulo span{
+    padding-left: 10px;
+
+}
+
+.titulo ion-icon{
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.ionicon:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px -4px 6px 0px #0000000D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.esqueci{
+    width: 90px;
+    height: 40px;
+    background: #FF3030;
+    border-radius: 5px;
+    border: none;
+}
+
+.esqueci span, .quase-esqueci span, .lembrei span{
+    font-family: Recursive;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+
+}
+
+.quase-esqueci{
+    width: 90px;
+    height: 40px;
+    background: #FF922E;
+    border-radius: 5px;
+    border: none;
+}
+
+.lembrei{
+    width: 90px;
+    height: 40px;
+    background: #2FBE34;
+    border-radius: 5px;
+    border: none;
+}
+
+.play:hover{
+    cursor: pointer;
+}
+
+.esqueci:hover{
+    cursor: pointer;
+}
+
+.quase-esqueci:hover{
+    cursor: pointer;
+}
+
+.lembrei:hover{
+    cursor: pointer;
+}
+
+.pergunta {
+    height: 130px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 5px 0px #00000026;
+    border-radius: 5px;
+    background-color: #FFFFD5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .setinha {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .setinha:hover{
+      cursor: pointer;
+  }
+
+  .resposta{
+    height: 130px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 5px 0px #00000026;
+    border-radius: 5px;
+    background-color: #FFFFD5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+.errou, .quase, .acertou {
+    text-decoration-line: line-through;
+}
+
+.errou {
+    color: #FF3030;
+  }
+
+.quase {
+    color:#FF922E;
+}
+
+.acertou {
+    color:#2FBE34;
+}
+
+.errou ion-icon{
+    color: #FF3030;
+  }
+
+.quase ion-icon{
+    color:#FF922E;
+}
+
+.acertou ion-icon{
+    color:#2FBE34;
+}
+
+.status{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.status .close-circle{
+    color: #FF3030;
+    font-size: 20px;
+}
+
+.status .help-circle{
+    color:#FF922E;
+    font-size: 20px;
+}
+
+.status .checkmark-circle{
+    color:#2FBE34;
+    font-size: 20px;
+
+}
+
